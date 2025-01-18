@@ -5,6 +5,6 @@ main:
     # conference: "International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023."
     pdf: https://arxiv.org/pdf/2412.17637
     # code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://kuangzhige.github.io/_data/scbench.txt
+    bibtex: https://kuangzhige.github.io/_data/scbench.bib
     image: ./assets/img/pub/scbench.png
     notes: "In submission"
