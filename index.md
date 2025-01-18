@@ -13,8 +13,6 @@ My current research interests primarily lie in **multimodal learning** and **emb
 - **Multimodal Learning:** video understanding, VLM, video generation
 - **Embodied AI:** robot planning, VLA models, robot manipulation
 
-## Education
-
 ## News
 
 - **[Dec. 2024]** I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.
