@@ -4,6 +4,10 @@ position: Undergraduate Student
 affiliation: Peking University
 email: gekuangzhi (at) stu.pku.edu.cn
 
+domain: kuangzhige.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://kuangzhige.github.io # the base hostname and protocol for your site, e.g. http://example.com
+# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
+
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Kuangzhi Ge, 戈旷植, PKU, kuangzhi ge, Kuangzhi Ge PKU, kuangzhi ge PKU
