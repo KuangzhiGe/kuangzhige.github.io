@@ -1,0 +1,11 @@
+main:
+  - title: "Peking University"
+    details: "(2022.09-Present) B.S in Computer Science"
+    image: ./assets/img/pku_colored.png
+    image_width: 40px
+    image_height: 40px
+  - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
+    details: "(2024.01-Present) Undergraduate Research Assistant"
+    image: ./assets/img/NERC_logo.jpg
+    image_width: 80px
+    image_height: 40px

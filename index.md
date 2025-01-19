@@ -13,15 +13,7 @@ My current research interests primarily lie in **multimodal learning** and **emb
 - **Multimodal Learning:** video understanding, VLM, video generation
 - **Embodied AI:** robot planning, VLA models, robot manipulation
 
-## Experience
-
-- <div style="display: flex; align-items: center; margin-bottom: 20px;">
-    <img src="./assets/img/pku_colored.png" alt="Peking University" style="width: 40px; height: 40px; margin-right: 15px; vertical-align: middle;">
-    <div style="display: flex; flex-direction: column; justify-content: center;">
-        <h3 style="margin: 0; line-height: 1.2; color:rgb(255, 255, 255);">Peking University</h3>
-        <span style="font-size: 14px; color: #bbbbbb;">(2022.09-Present) B.S in Computer Science</span>
-    </div>
-  </div>
+{% include_relative _includes/experience.md %}
 
 ## News🔥
 
@@ -33,7 +25,7 @@ My current research interests primarily lie in **multimodal learning** and **emb
 ## Miscellaneous
 
 - I held the position of **President** of the Student Rugby🏉 Football🏈 Association of Peking University during the 2023-2024 academic year.
-- 🏈 I serve as the **defensive captain** of the university's American football team, playing as a linebacker and tight end.
+- 🏈 I serve as the **defensive captain** of the university's American football team, playing as a linebacker and tight end. 🔥🔥🔥 Come see my [Pick6🏈](https://www.instagram.com/p/DBRcd9nPGZu/) V.S BISU Snowwolves🐺
 - 💪 I'm living on a gym lifestyle, hitting the gym at least twice a week.
 - 🎧 I love Hip-hop and R&B Music. I'm a huge fan of [J.Cole](https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5), [Ye](https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x) and [Usher](https://open.spotify.com/artist/23zg3TcAtWQy7J6upgbUnj).
 
