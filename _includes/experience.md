@@ -1,4 +1,4 @@
-<h2 id="experience" style="margin-bottom: 20px; ">Education</h2>
+<h2 id="experience" style="margin-bottom: 20px; ">Experience</h2>
 
 <div class="experience">
 <ol class="experience-list" style="list-style-type: none; padding: 0; margin: 0;">
