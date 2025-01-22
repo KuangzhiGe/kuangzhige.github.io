@@ -12,7 +12,7 @@ plugins:
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Kuangzhi Ge, 戈旷植, PKU, kuangzhi ge, Kuangzhi Ge PKU, kuangzhi ge PKU
+keywords: "Kuangzhi Ge", "戈旷植", "PKU", "kuangzhi ge", "Kuangzhi Ge PKU", "kuangzhi ge PKU"
 description: The personal website of Kuangzhi Ge, an undergraduate student at Peking University majoring in Artificial Intelligence.
 canonical: https://kuangzhige.github.io/
 
