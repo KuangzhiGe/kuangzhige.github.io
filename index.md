@@ -30,7 +30,7 @@ My current research interests primarily lie in **multimodal learning** and **emb
 - 🎧 I love Hip-hop and R&B Music. I'm a huge fan of [J.Cole](https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5), [Ye](https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x) and [Usher](https://open.spotify.com/artist/23zg3TcAtWQy7J6upgbUnj).
 
 <div style="width: 100px; height: 100px; margin: 0 auto; display: flex; justify-content: center; align-items: center;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GdB0zYVLEvWegIIfKP37FcfVxDbS604Sg162tWZlf64"></script>
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WBS-C103szyqK9_Q1B6O3HihyzClmC4RQve17y7ef-U"></script>
 </div>
 
 <!-- {% include_relative _includes/services.md %} -->
