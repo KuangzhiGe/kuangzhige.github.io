@@ -7,6 +7,7 @@ main:
     bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/dyva.bib
     image: ./assets/img/pub/dyva.png
     notes: "In submission"
+    tags: "World Model, Multimodal Learning, VLM"
 
   - title: "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis"
     authors: "Xiaowei Chi*, <strong>Kuangzhi Ge</strong>*, Jiaming Liu†, Siyuan Zhou, Peidong Jia, Kevin Zhang, Yuzhen Liu, Tingguang Li, Sirui Han, Shanghang Zhang✉, Yike Guo✉"
@@ -16,6 +17,7 @@ main:
     bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/mind.bib
     image: ./assets/img/pub/mind.png
     notes: "In submission"
+    tags: "World Model, Embodied AI"
 
   - title: "SCBench: A Sports Commentary Benchmark for Video LLMs"
     authors: "<strong>Kuangzhi Ge</strong>*, Lingjun Chen*, Kevin Zhang†, Yulin Luo, Tianyu Shi, Liaoyuan Fan, Xiang Li, Guanqun Wang, Shanghang Zhang✉"
@@ -25,3 +27,4 @@ main:
     bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/scbench.bib
     image: ./assets/img/pub/scbench.png
     notes: "In submission"
+    tags: "Multimodal Learning, VLM, Benchmark"

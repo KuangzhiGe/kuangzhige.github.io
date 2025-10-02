@@ -877,3 +877,28 @@ footer {
 .pub-row:hover .abbr::after {
     opacity: 1;
 }
+
+.filters {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filters .btn {
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.filters .btn:hover {
+    background: #eee;
+}
+
+.filters .btn.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}

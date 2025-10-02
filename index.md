@@ -27,6 +27,7 @@ My current research interests primarily lie in **multimodal learning** and **emb
         <li><strong>[Dec. 2024]</strong>📃 Our benchmark paper on sports video commentary for video LLMs is released!</li>
     </ul>
 </div>
+<br>
 
 {% include_relative _includes/publications.md %}
 
