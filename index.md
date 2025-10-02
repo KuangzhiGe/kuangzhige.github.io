@@ -19,10 +19,14 @@ My current research interests primarily lie in **multimodal learning** and **emb
 
 ## News🔥
 
-- **[Sept. 2025]**📃 [DyVA WorldLM](https://dyva-worldlm.github.io/) is released!
-- **[June. 2025]**📃 Glab to present [MinD](https://manipulate-in-dream.github.io/)! A dual-system World Model for robot manipulation.
-- **[Dec. 2024]**🏅 I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.
-- **[Dec. 2024]**📃 Our benchmark paper on sports video commentary for video LLMs is released!
+<div class="news-ticker-container">
+    <ul class="news-ticker">
+        <li><strong>[Sept. 2025]</strong>📃 <a href="https://dyva-worldlm.github.io/">DyVA WorldLM</a> is released!</li>
+        <li><strong>[Jun. 2025]</strong>📃 Glad to present <a href="https://manipulate-in-dream.github.io/">MinD</a>! A dual-system World Model for robot manipulation.</li>
+        <li><strong>[Dec. 2024]</strong>🏅 I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.</li>
+        <li><strong>[Dec. 2024]</strong>📃 Our benchmark paper on sports video commentary for video LLMs is released!</li>
+    </ul>
+</div>
 
 {% include_relative _includes/publications.md %}
 

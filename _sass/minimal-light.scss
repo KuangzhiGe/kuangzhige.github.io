@@ -719,3 +719,161 @@ footer {
 .social-icons a {
     margin: 0 5px 0 0; // 从内联样式 style="..." 移到此处
 }
+
+#back-to-top {
+    display: inline-block;
+    background-color: #2196F3;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#back-to-top::after {
+    content: "\f077";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#back-to-top:hover {
+    cursor: pointer;
+    background-color: #337ab7;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* News Ticker Styles */
+.news-ticker-container {
+    height: 100px;
+    /* 您可以根据需要调整高度 */
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    position: relative;
+}
+
+/* News Container Styles (Manual Scroll) */
+.news-ticker-container {
+    height: 150px;
+    /* 您可以根据需要调整此框的高度 */
+    overflow-y: auto;
+    /* 当内容超出高度时，显示垂直滚动条 */
+    border-radius: 8px;
+    padding: 5px 20px;
+    background-color: #fdfdfd;
+    /* 修正后的浅色模式背景，更柔和 */
+    border: 1px solid #e5e5e5;
+    /* 使用主题中已有的边框颜色，保持统一 */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* 深色模式下的样式 */
+@media (prefers-color-scheme: dark){ .news-ticker-container {
+    background-color: #2a2c37;
+    /* 修正后的深色模式背景，更融入主题 */
+    border-color: #30363d;
+    /* 深色模式下的边框颜色 */
+}
+}
+
+.news-ticker-container .news-ticker {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-ticker-container .news-ticker li {
+    padding: 10px 0;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #e9ecef;
+    /* 为新闻条目添加分隔线 */
+}
+
+.news-ticker-container .news-ticker li:last-child {
+    border-bottom: none;
+    /* 移除最后一项的分隔线 */
+}
+
+/* 深色模式下的分隔线 */
+@media (prefers-color-scheme: dark){ .news-ticker-container .news-ticker li {
+    border-bottom-color: #30363d;
+}}
+
+/* (可选，但很酷) 美化滚动条样式 */
+.news-ticker-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.news-ticker-container::-webkit-scrollbar-track {
+    background: transparent;
+    /* 滚动条轨道透明 */
+}
+
+.news-ticker-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .news-ticker-container::-webkit-scrollbar-thumb {
+        background-color: #555;
+    }
+}
+
+/* Publication Card Hover Effect */
+.pub-row .abbr {
+    overflow: hidden;
+    /* 确保放大的图片不会超出边界 */
+    position: relative;
+}
+
+.pub-row .abbr .teaser {
+    transition: transform 0.4s ease;
+}
+
+.pub-row:hover .abbr .teaser {
+    transform: scale(1.1);
+    /* 鼠标悬停时图片放大10% */
+}
+
+/* 添加一个遮罩层 */
+.pub-row .abbr::after {
+    content: 'View Details';
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    /* 确保遮罩层不影响点击 */
+}
+
+.pub-row:hover .abbr::after {
+    opacity: 1;
+}
