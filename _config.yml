@@ -12,17 +12,19 @@ plugins:
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Kuangzhi Ge, 戈旷植, PKU, kuangzhi ge, Kuangzhi Ge PKU, kuangzhi ge PKU
+keywords: Kuangzhi Ge, 戈旷植, PKU, kuangzhi ge, Kuangzhi Ge PKU, kuangzhi ge PKU, kuangzhi ge pku
 description: The personal website of Kuangzhi Ge, an undergraduate student at Peking University majoring in Artificial Intelligence.
 canonical: https://kuangzhige.github.io/
 
 # Links
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ
-# cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/KuangzhiGe
-linkedin: https://www.linkedin.com/in/旷植-戈-771b3630b/
-# instagram: https://www.instagram.com/arell_ge/
+social:
+  - { platform: 'GitHub',       url: 'https://github.com/KuangzhiGe',                  icon: 'fab fa-github',         font_size: '1.2rem' }
+  - { platform: 'Google Scholar', url: 'https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ', icon: 'ai ai-google-scholar', font_size: '1.3rem' }
+  - { platform: 'LinkedIn',     url: 'https://www.linkedin.com/in/旷植-戈-771b3630b/',   icon: 'fab fa-linkedin',      font_size: '1.2rem' }
+  # - { platform: 'CV',           url: 'assets/files/curriculum_vitae.pdf',              icon: 'ai ai-cv',             font_size: '1.3rem' }
+  # - { platform: 'Twitter',      url: 'https://twitter.com/your_username',              icon: 'fab fa-x-twitter',     font_size: '1.2rem' }
+
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
@@ -40,7 +42,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
