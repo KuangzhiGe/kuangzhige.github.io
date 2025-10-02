@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a junior undergraduate student majoring in Artificial Intelligence at the School of EECS, [Peking University](https://www.pku.edu.cn/). I am honored to be advised by Prof. [Shanghang Zhang](https://www.shanghangzhang.com/) as a research intern at the [State Key Laboratory of Multimedia Information Processing](https://idm.pku.edu.cn/en/), School of Computer Science, Peking University.
+I am a senior undergraduate student majoring in Artificial Intelligence at the School of EECS, [Peking University](https://www.pku.edu.cn/). I am honored to be advised by Prof. [Shanghang Zhang](https://www.shanghangzhang.com/) as a research intern at the [State Key Laboratory of Multimedia Information Processing](https://idm.pku.edu.cn/en/), School of Computer Science, Peking University.
 
 My current research interests primarily lie in **multimodal learning** and **embodied AI**, with a focus on **world model**. Specifically, my research interests are dedicated to exploring robust and efficient methodologies for representing world states and modeling state transitions, with the overarching goal of advancing robotic planning capabilities. I am enthusiastic about contributing to and collaborating on innovative, cutting-edge research in this field.
+
+***I am currently seeking Ph.D. opportunities starting in Fall 2026. Please feel free to contact me if you are interested in my work or potential collaboration!***
 
 ## Research Interests
 
@@ -17,6 +19,8 @@ My current research interests primarily lie in **multimodal learning** and **emb
 
 ## News🔥
 
+- **[Sept. 2025]**📃 [DyVA WorldLM](https://dyva-worldlm.github.io/) is released!
+- **[June. 2025]**📃 Glab to present [MinD](https://manipulate-in-dream.github.io/)! A dual-system World Model for robot manipulation.
 - **[Dec. 2024]**🏅 I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.
 - **[Dec. 2024]**📃 Our benchmark paper on sports video commentary for video LLMs is released!
 
