@@ -4,7 +4,7 @@
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
 \[[Demo](https://minimal-light-theme.yliu.me/)\]  \[[English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
- 
+
 *Dies ist der Quellcode meiner Homepage. Ich baue diese Website basierend auf [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Sie können den Quellcode jederzeit verwenden und freigeben.*
@@ -15,7 +15,7 @@
 - Jekyll-Theme, wird automatisch von GitHub-Seiten bereitgestellt
 - Grundlegende Suchmaschinenoptimierung
 - Handyfreundlich
-- Support Markdown 
+- Support Markdown
 - Unterstützt den dunklen Modus
 
 ## Verwendung
@@ -29,7 +29,7 @@ remote_theme: yaoyao-liu/minimal-light
 
 Bitte beachten Sie, dass durch Hinzufügen der obigen Zeile alle Standardeinstellungen in diesem Repository direkt auf Ihre angewendet werden.
 
-Wenn Sie Dateien bearbeiten möchten (z. B. `index.md`), müssen Sie sie dennoch in Ihr Repository kopieren. 
+Wenn Sie Dateien bearbeiten möchten (z. B. `index.md`), müssen Sie sie dennoch in Ihr Repository kopieren.
 
 Sie können dieses Repository auch verzweigen (oder [Verwenden Sie dieses Repository als Vorlage](https://docs.github.com/de/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) und ändern Sie den Namen in `your-username.github.io`.
 
@@ -52,7 +52,7 @@ bundle install
 bundle exec jekyll server
 ```
 
-Zeigen Sie die Live-Seite mit `localhost` an: 
+Zeigen Sie die Live-Seite mit `localhost` an:
 <http://localhost:4000>. Sie können die HTML-Dateien im Ordner `_site` abrufen.
 
 ## Customizing
@@ -84,9 +84,9 @@ twitter: https://twitter.com/
 
 # Bilder (z. B. Ihr Profilbild und das Favicon Ihrer Website)
 # "favicon" und "favicon_dark" werden für den Hell- bzw. Dunkelmodus verwendet.
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/profile.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Google Analytics ID
 # Bitte entfernen Sie dies, wenn Sie Google Analytics nicht verwenden
@@ -122,7 +122,7 @@ Wenn Sie das HTML-Layout des Themas ändern möchten:
 
 ## Lizenz
 
-Diese Arbeit unterliegt den Bestimmungen einer [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) Lizenz. 
+Diese Arbeit unterliegt den Bestimmungen einer [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) Lizenz.
 
 ## Danksagung
 

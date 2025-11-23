@@ -5,7 +5,7 @@
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
 \[[在線演示](https://minimal-light-theme.yliu.me/)\] \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
- 
+
 *這個項目包含我主頁的源代碼. 基於 GitHub 官方主題之一 [minimal](https://github.com/orderedlist/minimal) 創建*
 <br>
 *如果您喜歡這個項目，歡迎您使用和分享*
@@ -52,7 +52,7 @@ bundle install
 bundle exec jekyll server
 ```
 在`localhost`預覽網頁:
-<http://localhost:4000>. 
+<http://localhost:4000>.
 你可以在`_site`文件夾中找到 html 文件.
 
 ## 自定義內容
@@ -81,9 +81,9 @@ linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
 
 # 圖片路徑
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/profile.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Google Analytics ID
 google_analytics: UA-111540567-4

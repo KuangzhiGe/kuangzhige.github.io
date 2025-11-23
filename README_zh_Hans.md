@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
 \[[在线演示](https://minimal-light-theme.yliu.me/)\] \[[繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
- 
+
 *这个项目包含我主页的源代码. 基于 GitHub 官方主题之一 [minimal](https://github.com/orderedlist/minimal) 创建*
 <br>
 *如果您喜欢这个项目，欢迎您使用和分享*
@@ -50,7 +50,7 @@ bundle install
 bundle exec jekyll server
 ```
 在`localhost`预览网页:
-<http://localhost:4000>. 
+<http://localhost:4000>.
 你可以在`_site`文件夹中找到 html 文件.
 
 ## 自定义内容
@@ -58,7 +58,7 @@ bundle exec jekyll server
 ### 配置变量
 
 Minimal Light 主题有以下的变量, 你可以在`_config.yml`文件中修改:
-  
+
   ```yaml
 # 基本信息
 title: 你的名字
@@ -79,9 +79,9 @@ linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
 
 # 图片路径
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/profile.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Google Analytics ID
 google_analytics: UA-111540567-4
