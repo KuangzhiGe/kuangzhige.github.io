@@ -1,30 +1,29 @@
 main:
   - title: "Can World Models Benefit VLMs for World Dynamics?"
     authors: "Kevin Zhang*, <strong>Kuangzhi Ge</strong>*, Xiaowei Chi*, Renrui Zhang, Shaojun Shi, Zhen Dong, Sirui Han✉, Shanghang Zhang✉"
-    pdf: https://arxiv.org/pdf/2510.00855v1
-    code: https://github.com/zyzkevin/dyva-worldlm
-    page: https://dyva-worldlm.github.io/
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/dyva.bib
-    image: ./assets/img/pub/dyva.png
+    url: "https://arxiv.org/pdf/2510.00855v1"
+    code: "https://github.com/zyzkevin/dyva-worldlm"
+    page: "https://dyva-worldlm.github.io/"
+    image: "./assets/img/pub/dyva.png"
     notes: "In submission"
     tags: "World Model, Multimodal Learning, VLM"
+    bibtex: "/assets/bibs/zhang2025dyva.bib"
 
   - title: "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis"
     authors: "Xiaowei Chi*, <strong>Kuangzhi Ge</strong>*, Jiaming Liu†, Siyuan Zhou, Peidong Jia, Kevin Zhang, Yuzhen Liu, Tingguang Li, Sirui Han, Shanghang Zhang✉, Yike Guo✉"
-    pdf: https://arxiv.org/pdf/2506.18897
-    code: https://github.com/manipulate-in-dream/MinD
-    page: https://manipulate-in-dream.github.io/
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/mind.bib
-    image: ./assets/img/pub/mind.png
+    url: "https://arxiv.org/pdf/2506.18897"
+    code: "https://github.com/manipulate-in-dream/MinD"
+    page: "https://manipulate-in-dream.github.io/"
+    image: "./assets/img/pub/mind.png"
     notes: "In submission"
     tags: "World Model, Embodied AI"
+    bibtex: "/assets/bibs/chi2025mind.bib"
 
   - title: "SCBench: A Sports Commentary Benchmark for Video LLMs"
     authors: "<strong>Kuangzhi Ge</strong>*, Lingjun Chen*, Kevin Zhang†, Yulin Luo, Tianyu Shi, Liaoyuan Fan, Xiang Li, Guanqun Wang, Shanghang Zhang✉"
-    # conference_short: MICCAI
-    # conference: "International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023."
-    pdf: https://arxiv.org/pdf/2412.17637
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/scbench.bib
-    image: ./assets/img/pub/scbench.png
+    url: "https://arxiv.org/pdf/2412.17637"
+    image: "./assets/img/pub/scbench.png"
     notes: "In submission"
     tags: "Multimodal Learning, VLM, Benchmark"
+    bibtex: "/assets/bibs/ge2024scbench.bib"
+

@@ -15,21 +15,14 @@ My current research interests primarily lie in **multimodal learning** and **emb
 - **Multimodal Learning:** video understanding, VLM, video generation
 - **Embodied AI:** robot planning, VLA models, robot manipulation
 
-{% include_relative _includes/experience.md %}
+{% include experience.md %}
 
 ## News🔥
 
-<div class="news-ticker-container">
-    <ul class="news-ticker">
-        <li><strong>[Sept. 2025]</strong>📃 <a href="https://dyva-worldlm.github.io/">DyVA WorldLM</a> is released!</li>
-        <li><strong>[Jun. 2025]</strong>📃 Glad to present <a href="https://manipulate-in-dream.github.io/">MinD</a>! A dual-system World Model for robot manipulation.</li>
-        <li><strong>[Dec. 2024]</strong>🏅 I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.</li>
-        <li><strong>[Dec. 2024]</strong>📃 Our benchmark paper on sports video commentary for video LLMs is released!</li>
-    </ul>
-</div>
+{% include news.md %}
 <br>
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
 ## Miscellaneous
 
