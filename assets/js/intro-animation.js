@@ -16,7 +16,7 @@ function typeEffect() {
     } else {
         setTimeout(() => {
             resetTypeEffect(); // 完成后重置并播放下一句
-        }, 500); // 停留 0.5 秒后重置
+        }, 500); // 停留 0.2 秒后重置
     }
 }
 
@@ -37,7 +37,7 @@ introPage.addEventListener("click", () => {
         setTimeout(() => {
             mainContent.style.opacity = "1"; // 淡入主页面
         }, 10); // 确保 display: block 生效后再进行淡入
-    }, 1000); // 保证淡出动画完成后再隐藏特效页
+    }, 500); // 保证淡出动画完成后再隐藏特效页
 });
 
 // 启动逐字显示特效

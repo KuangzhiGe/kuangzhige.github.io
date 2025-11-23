@@ -1,5 +1,5 @@
 .pub-row {
-  display: flex; 
+  display: flex;
   align-items: center;}
 
 .social-icons a{
@@ -7,7 +7,7 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:#8C0000!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -183,18 +183,18 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:#8C0000;
   margin:0 0 20px;
 }
 
 h1 {
   font-weight: 500;
-  color:#043361;
+  color:#8C0000;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:#8C0000;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -213,12 +213,12 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#8C0000;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#600000;
 }
 
 a small {
@@ -297,16 +297,19 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius:12px;
+  border:1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid #f5f5f7;
   height:40px;
 }
 
@@ -321,7 +324,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#86868b;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -329,7 +332,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#8C0000;
 }
 
 header ul a:active {
@@ -349,7 +352,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#1d1d1f;
 }
 
 section {
@@ -382,7 +385,7 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   .pub-row {
-  display: flex; 
+  display: flex;
   align-items: center;}
 
   div.wrapper {
@@ -427,11 +430,11 @@ footer {
   #head1o2 {
     visibility: hidden;
   }
-      
+
   #head2o2 {
     visibility: hidden;
   }
-  
+
 }
 
 @media print, screen and (max-width: 960px) {
@@ -441,7 +444,7 @@ footer {
   }
 
   .pub-row {
-  display: flex; 
+  display: flex;
   align-items: center;}
 
   header {
@@ -449,7 +452,7 @@ footer {
   }
 
   header ul, header p.view {
-    
+
   }
 
   pre, code {
@@ -460,7 +463,7 @@ footer {
 @media print, screen and (max-width: 480px) {
 
   .pub-row {
-    display: block; 
+    display: block;
     align-items: center;}
 
   body {
@@ -483,7 +486,7 @@ footer {
   #head1o2 {
     visibility: hidden;
   }
-  
+
   #head2o2 {
     visibility: hidden;
   }
@@ -496,6 +499,14 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+body {
+  background-color: #F9F8F4;
+  color: #1d1d1f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 .biblink {
