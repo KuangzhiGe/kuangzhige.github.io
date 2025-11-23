@@ -1,6 +1,6 @@
 <h2 id="publications" style="margin: 2px 0px -15px; display: flex; align-items: baseline;">
   Selected Publications
-  <small style="font-size: 0.6rem; font-weight: 400; margin-left: 1em;">
+  <small style="font-size: 0.8rem; font-weight: 400; margin-left: 1em;">
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ" target="_blank" rel="noopener">(Click for full list)</a>
   </small>
 </h2>

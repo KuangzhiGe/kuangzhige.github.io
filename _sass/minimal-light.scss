@@ -1,6 +1,51 @@
 .pub-row {
   display: flex;
-  align-items: center;}
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.bibliography {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bibliography li {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.bibliography li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.news-ticker-container {
+  background: #f5f5f7;
+  border-radius: 12px;
+  padding: 16px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.news-ticker {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-ticker li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.news-ticker li strong {
+  color: #8C0000;
+  margin-right: 8px;
+}
 
 .social-icons a{
   display:inline-block;
@@ -177,9 +222,27 @@ papertitle {
 body {
   background-color: #F9F8F4;
   color: #1d1d1f;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apple-style Card */
+.card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
 }
 
   .image {
@@ -216,10 +279,15 @@ body {
       .image.avatar img {
         border-radius: 100%;
         width: 45%;
-        padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+        padding: 5px;
+        background: #fff;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        border: 1px solid rgba(0,0,0,0.05);
+        transition: transform 0.3s ease;
+      }
+
+      .image.avatar img:hover {
+        transform: scale(1.05);
       }
 
     #header .image.avatar {
@@ -231,19 +299,22 @@ h3, h4, h5, h6 {
   font-weight: 600;
   color:#8C0000;
   margin:0 0 20px;
+  letter-spacing: -0.01em;
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 700;
   color:#8C0000;
   margin:0 0 20px;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   color:#8C0000;
-  font-weight: 500;
-  margin:2px 0px 15px;
-  font-size: 157%;
+  font-weight: 600;
+  margin:2px 0px 20px;
+  font-size: 1.6rem;
+  letter-spacing: -0.015em;
 }
 
 // @media (prefers-color-scheme: dark) {
@@ -297,12 +368,15 @@ h1 {
 }
 
 a {
-  color:#8C0000;
-  text-decoration:none;
+  color: #8C0000;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  color:#600000;
+  color: #600000;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 /* Dark mode removed */
@@ -315,19 +389,19 @@ a:hover {
 }
 
 a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
+  font-size: 11px;
+  color: #86868b;
+  margin-top: -0.3em;
+  display: block;
 }
 
 a:hover small {
-  color:#777;
+  color: #86868b;
 }
 
 .wrapper {
-  width:960px;
-  margin:0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 blockquote {
@@ -389,30 +463,29 @@ img {
 }
 
 header {
-  width:232px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
-  text-align:center
+  width: 260px;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 4.0em;
+  text-align: center;
+  z-index: 100;
 }
 
-
-
 header ul {
-  list-style:none;
-  padding: 10px 0;
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 16px;
+  list-style: none;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
-  width: 200px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+  width: 220px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   height: auto;
 }
 
@@ -421,70 +494,40 @@ header li {
   float: none;
   border-right: none;
   height: auto;
-  padding: 0 10px;
+  padding: 0;
   box-sizing: border-box;
 }
 
-header li:first-child a {
-  border-radius: 8px;
-}
-
-header li:last-child a {
-  border-radius: 8px;
-}
-
 header ul a {
-  line-height: 36px;
-  font-size: 14px;
-  color: #1d1d1f;
+  line-height: 44px;
+  font-size: 15px;
+  color: #000000;
   display: block;
   text-align: left;
-  padding: 0 15px;
-  height: 36px;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  font-weight: 500;
+  padding: 0 24px;
+  height: 44px;
+  border-radius: 14px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 header ul a:hover {
-  color: #8C0000;
-  background-color: rgba(140, 0, 0, 0.05);
+  color: #600000;
+  background-color: rgba(140, 0, 0, 0.06);
+  transform: scale(1.02);
 }
 
 header ul a:active {
-  background-color: rgba(140, 0, 0, 0.1);
-}
-
-strong {
-  color:#222;
-  font-weight:500;
-}
-
-/* Dark mode removed */
-@media (prefers-color-scheme: dark) {
-  /*
-  strong {
-    color:#eeeff0;
-  }
-  */
-}
-
-header ul li + li + li {
-  border-right:none;
-  width: 100%;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#1d1d1f;
+  background-color: rgba(140, 0, 0, 0.12);
+  transform: scale(0.98);
 }
 
 section {
-  width:650px;
-  float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+  width: 700px;
+  float: right;
+  padding-top: 4.0em;
+  padding-bottom: 50px;
 }
 
 small {
@@ -526,14 +569,17 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: none;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   header a small {
@@ -756,7 +802,7 @@ footer {
 
 #back-to-top {
     display: inline-block;
-    background-color: #2196F3;
+    background-color: #8C0000;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -790,94 +836,27 @@ footer {
     visibility: visible;
 }
 
-/* News Ticker Styles */
-.news-ticker-container {
-    height: 100px;
-    /* 您可以根据需要调整高度 */
-    overflow: hidden;
-    border-radius: 8px;
-    padding: 10px 15px;
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    position: relative;
-}
-
-/* News Container Styles (Manual Scroll) */
+/* News Ticker Styles - Cleaned up */
 .news-ticker-container {
     height: 150px;
-    /* 您可以根据需要调整此框的高度 */
     overflow-y: auto;
-    /* 当内容超出高度时，显示垂直滚动条 */
-    border-radius: 8px;
-    padding: 5px 20px;
-    background-color: #fdfdfd;
-    /* 修正后的浅色模式背景，更柔和 */
-    border: 1px solid #e5e5e5;
-    /* 使用主题中已有的边框颜色，保持统一 */
-    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #f5f5f7;
+    border: 1px solid rgba(0,0,0,0.05);
 }
 
-/* 深色模式下的样式 */
-/* Dark mode removed */
-@media (prefers-color-scheme: dark){
-    /*
-    .news-ticker-container {
-    background-color: #2a2c37;
-    border-color: #30363d;
-    }
-    */
-}
-
-.news-ticker-container .news-ticker {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.news-ticker-container .news-ticker li {
-    padding: 10px 0;
-    font-size: 0.95rem;
-    border-bottom: 1px solid #e9ecef;
-    /* 为新闻条目添加分隔线 */
-}
-
-.news-ticker-container .news-ticker li:last-child {
-    border-bottom: none;
-    /* 移除最后一项的分隔线 */
-}
-
-/* 深色模式下的分隔线 */
-/* Dark mode removed */
-@media (prefers-color-scheme: dark){
-    /*
-    .news-ticker-container .news-ticker li {
-    border-bottom-color: #30363d;
-    }
-    */
-}
-
-/* (可选，但很酷) 美化滚动条样式 */
 .news-ticker-container::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 }
 
 .news-ticker-container::-webkit-scrollbar-track {
     background: transparent;
-    /* 滚动条轨道透明 */
 }
 
 .news-ticker-container::-webkit-scrollbar-thumb {
-    background-color: #ccc;
+    background-color: rgba(0,0,0,0.2);
     border-radius: 10px;
-}
-
-/* Dark mode removed */
-@media (prefers-color-scheme: dark) {
-    /*
-    .news-ticker-container::-webkit-scrollbar-thumb {
-        background-color: #555;
-    }
-    */
 }
 
 /* Publication Card Hover Effect */
@@ -923,28 +902,34 @@ footer {
 }
 
 .filters {
-    margin-bottom: 20px;
-    text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .filters .btn {
-    margin: 5px;
-    padding: 8px 15px;
-    border: 1px solid #e5e5e5;
-    background: #ffffff;
-    color: #1d1d1f;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
 }
 
 .filters .btn:hover {
-    background: #f5f5f7;
-    border-color: #d1d1d6;
+  background: rgba(0,0,0,0.03);
+  color: #333;
+  border-color: rgba(0,0,0,0.2);
 }
 
 .filters .btn.active {
-    background: #8C0000;
-    color: white;
-    border-color: #8C0000;
+  background: #8C0000;
+  color: white;
+  border-color: #8C0000;
+  box-shadow: 0 4px 12px rgba(140, 0, 0, 0.2);
 }
